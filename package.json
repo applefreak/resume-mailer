@@ -1,0 +1,22 @@
+{
+  "name": "resume-mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "mail": "gulp mail"
+  },
+  "author": "Poyu Chen <p820316@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-mail": "^0.2.0",
+    "gulp-mustache": "^2.3.0",
+    "gulp-prompt": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "lodash": "^4.17.4",
+    "nodemailer": "^3.1.7",
+    "nodemailer-wellknown": "^0.2.2"
+  }
+}
