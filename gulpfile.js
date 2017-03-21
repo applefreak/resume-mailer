@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var inlineCss = require('gulp-inline-css');
-var mail = require('gulp-mail');
+var mail = require('gulp-mailing');
 var prompt = require('gulp-prompt');
 var mustache = require("gulp-mustache");
 var rename = require("gulp-rename");
@@ -82,6 +82,8 @@ gulp.task('mail', ['template'],function () {
 		subject: variables.subject,
 		to: [variables.to],
 		from: config.defaults.from,
-		smtp: config.smtpInfo
+		smtp: config.smtpInfo,
+		attachments: config.defaults.attachments
 	}));
 });
+
