@@ -39,6 +39,6 @@ This time, the email will be sent out!
 
 ## That's It!
 
-I've written a post on this project, you can check it [here]() on my site.
+I've written a post on this project, you can check it [here](https://poyu.xyz/projects/resume-mailer/) on my site.
 
 Thanks for reading!
